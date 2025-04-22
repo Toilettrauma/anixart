@@ -19,3 +19,26 @@ class AnixartLists(IntEnum):
     WATCHED = 3
     POSTPONED = 4
     DROPPED = 5
+
+class AnixartReleaseStatus(IntEnum):
+    FINISHED = 1,
+    ONGOING = 2,
+    UPCOMING = 3
+
+class AnixartReleaseCategory(IntEnum):
+    SERIES = 1,
+    MOVIES = 2,
+    OVA = 3
+
+class AnixartReleaseAgeRating(IntEnum):
+    G = 1, # 0+
+    PG6 = 2 # 6+
+    PG12 = 3, # 12+
+    R16 = 4 # 16+
+    R18 = 5 # 18+
+
+class AnixartReleaseSeason(IntEnum):
+    WINTER = 1,
+    SPRING = 2
+    SUMMER = 3
+    FALL = 4
